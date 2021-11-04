@@ -13,13 +13,19 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 html {
-font-size: 24px; /* 18 / 16 = 1.125em */
+font-size: 24px; /* 24  / 16 = 1.5em */
 line-height: 28.8px;
 background-color: #778899;
 font-family: "Time's new Roman", "Arial", "Times";
 }
+header, p, h2, article, section {
+  padding-bottom: 28.8px;
+}
 header {
   font-size: 28.8px;
+}
+#ground-up {
+  padding-top: 28.8px;
 }
 nav {
 font-size: 20px;

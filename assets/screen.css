@@ -21,12 +21,16 @@ font-family: "Time's new Roman", "Arial", "Times";
 header, p, h2, article, section {
   padding-bottom: 28.8px;
 }
+#ground-up {
+  padding-bottom: 0px;
+}
 header {
   font-size: 28.8px;
 }
-#ground-up {
-  padding-top: 28.8px;
+h2 {
+  font-weight: bold;
 }
+
 nav {
 font-size: 20px;
 text-decoration: none;

@@ -15,7 +15,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
 font-size: 24px; /* 24  / 16 = 1.5em */
 line-height: 28.8px;
-background-color: #778899;
+background-color: #A9A9A9;
 font-family: "Time's new Roman", "Arial", "Times";
 }
 header, p, h2, article, section, figcaption {
@@ -33,8 +33,16 @@ h2 {
 
 nav {
 font-size: 20px;
-text-decoration: none;
-background-color: white;
+}
+#nav-links li {
+  background-color: black;
+}
+#nav-links a {
+  color: white;
+  display: block;
+  line-height: 0;
+  padding: 28.8px;
+  text-decoration: none
 }
 img {
   display: block;

@@ -18,7 +18,7 @@ line-height: 28.8px;
 background-color: #778899;
 font-family: "Time's new Roman", "Arial", "Times";
 }
-header, p, h2, article, section {
+header, p, h2, article, section, figcaption {
   padding-bottom: 28.8px;
 }
 #ground-up {
@@ -40,6 +40,7 @@ img {
   display: block;
   max-width: 100%
 }
+
 
 .g body { position: relative; }
 

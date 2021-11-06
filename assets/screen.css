@@ -13,16 +13,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 html {
-font-size: 24px; /* 24  / 16 = 1.5em */
-line-height: 28.8px;
-background-color: #A9A9A9;
-font-family: "Time's new Roman", "Arial", "Times";
+  font-size: 24px; /* 24  / 16 = 1.5em */
+  line-height: 28.8px;
+  background-color: #A9A9A9;
+  font-family: Helvetica, Arial, serif;
 }
 header, p, h2, article, section, figcaption {
   padding-bottom: 28.8px;
 }
 #ground-up {
-  padding-bottom: 0px;
+  padding-bottom: none;
 }
 header {
   font-size: 28.8px;
@@ -30,9 +30,8 @@ header {
 h2 {
   font-weight: bold;
 }
-
 nav {
-font-size: 20px;
+  font-size: 20px;
 }
 #nav-links li {
   background-color: #808080;
@@ -48,18 +47,18 @@ font-size: 20px;
 }
 img {
   display: block;
-  max-width: 100%
+  max-width: 100%;
+}
+@media screen and (min-width: 1000px) {
+  img {
+    max-width: 50%;
+    margin: 0 auto;
+    max-height: 50%;
   }
-  @media screen and (min-width: 1000px) {
-    img {
-      max-width: 50%;
-      margin: 0 auto;
-      max-height: 50%;
-    }
-    body {
+  body {
     text-align: center;
-    }
   }
+}
 
 
 /*
@@ -79,3 +78,4 @@ img {
   }
 
   .g body:active::after { display: none; }
+  */

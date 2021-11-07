@@ -49,6 +49,9 @@ img {
   display: block;
   max-width: 100%;
 }
+#liam-footer {
+  background-color: #808080;
+}
 @media screen and (min-width: 1000px) {
   img {
     max-width: 50%;

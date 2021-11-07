@@ -25,6 +25,7 @@ header, p, h2, article, section, figcaption {
   padding-bottom: none;
 }
 figure {
+  display: flex;
   position: relative;
 }
 figcaption {
@@ -32,7 +33,7 @@ figcaption {
   width: 100%;
   bottom: 0px;
   color: grey;
-  background: transparent;
+  background: rgba(20,20,20,0.6);
 }
 header {
   font-size: 28.8px;
@@ -76,7 +77,13 @@ img {
   body {
     text-align: center;
   }
+  figcaption {
+    text-align: center;
+    background-color: transparent;
+  }
 }
+
+
 
 
 /*

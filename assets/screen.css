@@ -13,18 +13,29 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 html {
-  font-size: 24px; /* 24  / 16 = 1.5em */
-  line-height: 28.8px;
+  font-size: 18px; /* 24  / 16 = 1.5em */
+  line-height: 24px;
   background-color: #A9A9A9;
   font-family: Helvetica, Arial, serif;
 }
-header, p, h2, article, section, figcaption {
-  padding-bottom: 28.8px;
+ p,
+ h2,
+article,
+ section,
+ figcaption,
+ header
+  {
+  padding-bottom: 24px;
 }
+body {
+  text-align: center;
+}
+
 #ground-up {
-  padding-bottom: none;
+  padding-bottom: 0px;
 }
 figure {
+  padding-top: 24px;
   display: flex;
   position: relative;
 }
@@ -36,18 +47,18 @@ figcaption {
   background: rgba(20,20,20,0.6);
 }
 header {
-  font-size: 28.8px;
+  font-size: 24px;
 }
-header #header {
-  line-height: 57.6px;
-  font-size: 57.6px;
-}
+
 h2 {
   font-weight: bold;
 }
 nav {
-  font-size: 20px;
+  font-size: 24px;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
 }
+
 #nav-links li {
   background-color: #808080;
   display: flex;
@@ -56,17 +67,18 @@ nav {
 #nav-links a {
   color: white;
   display: block;
-  line-height: 0;
-  padding: 28.8px;
   text-decoration: none;
+  padding-bottom: 24px;
 }
 img {
   display: block;
   max-width: 100%;
-  padding-bottom: 14.4px;
+  padding-bottom: 12px;
 }
 #liam-footer {
   background-color: #808080;
+  border-top: 3px solid black;
+
 }
 @media screen and (min-width: 1000px) {
   img {
@@ -74,9 +86,7 @@ img {
     margin: 0 auto;
     max-height: 50%;
   }
-  body {
-    text-align: center;
-  }
+
   figcaption {
     text-align: center;
     background-color: transparent;
@@ -85,12 +95,12 @@ img {
 
 
 
-
 /*
+
 .g body { position: relative; }
 
   .g body::after {
-    background: url('data:image/svg+xml;utf8,<svg height="28.8" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
+    background: url('data:image/svg+xml;utf8,<svg height="24" width="1" xmlns="http://www.w3.org/2000/svg"><rect width="1" height="0.5" style="fill:rgba(255, 0, 0, 0.3)" /></svg>') repeat top left;
     content: "";
     display: block;
     pointer-events: none;

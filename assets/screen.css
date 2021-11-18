@@ -18,22 +18,29 @@ html {
   background-color: #DCDCDC;
   font-family: Helvetica, Arial, serif;
 }
- p,
- h2,
+p,
 article,
- section,
- figcaption,
- header
-  {
-  padding-bottom: 24px;
+section,
+figcaption,
+header
+ {
+ padding-bottom: 24px;
 }
-
 h1,
 .welcome,
 #ground-up,
-p
+p,
+#hiking-locations,
+.hiking-travel,
+#enjoy-movies,
+#movies,
+#fav-movies,
+#enjoy-games,
+#fav-games,
+#enjoy-sites,
+#favorite-sites
  {
-  text-align: center;
+   text-align: center;
 }
 
 #ground-up {
@@ -44,7 +51,9 @@ figure {
   display: flex;
   position: relative;
 }
-
+#hiking {
+  padding-bottom: 12px;
+}
 figcaption {
   position: absolute;
   width: 100%;
@@ -84,21 +93,20 @@ font-weight: bold;
 img {
   display: block;
   max-width: 100%;
-  padding-bottom: 12px;
 }
 #liam-footer {
   background-color: #A9A9A9;
   border-top: 3px solid black;
 }
 @media screen and (min-width: 900px) {
-  figure {
+  #forest {
     max-width: 50%;
     margin: 0 auto;
     max-height: 50%;
   }
   }
 @media screen and (min-width: 700px) {
-   #nav-links {
+   #nav-links  {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -106,10 +114,11 @@ img {
       nav {
         padding-bottom: 0px;
       }
+
 }
 
 
-/*
+
 
 
 .g body { position: relative; }

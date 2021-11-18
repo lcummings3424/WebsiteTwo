@@ -44,6 +44,7 @@ figure {
   display: flex;
   position: relative;
 }
+
 figcaption {
   position: absolute;
   width: 100%;
@@ -59,7 +60,6 @@ h1 {
   line-height: 30px; /* 24 * 1.5 = 30 */
   padding-top: 12px;
 }
-
 h2 {
   font-weight: bold;
 }
@@ -78,6 +78,7 @@ nav {
   color: white;
   display: block;
   text-decoration: none;
+  margin-bottom: 24px;
 }
 img {
   display: block;
@@ -87,30 +88,27 @@ img {
 #liam-footer {
   background-color: #808080;
   border-top: 3px solid black;
-
 }
 @media screen and (min-width: 900px) {
-  img {
+  figure {
     max-width: 50%;
     margin: 0 auto;
     max-height: 50%;
   }
-
-  figcaption {
-    text-align: center;
-    background-color: transparent;
   }
-}
 @media screen and (min-width: 500px) {
-  #nav-links {
+   #nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-  }
+      }
+      nav {
+        padding-bottom: 0px;
+      }
 }
 
 
-
+/*
 
 
 .g body { position: relative; }

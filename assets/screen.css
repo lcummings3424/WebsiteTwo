@@ -43,11 +43,28 @@ p,
    text-align: center;
 }
 
+#enjoy-movies,
+#enjoy-games,
+#enjoy-sites
+{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.hiking-travel
+ {
+  padding-top: 12px;
+}
+#welcomer,
+p {
+  padding-bottom: 24px;
+  padding-top: 24px;
+
+}
 #ground-up {
   padding-bottom: 0px;
 }
 figure {
-  padding-top: 24px;
+  padding-top: 12px;
   display: flex;
   position: relative;
 }
@@ -77,6 +94,9 @@ nav {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     padding: 24px;
+}
+#content-resume {
+  margin-left: 24px;
 }
 
 #nav-links li {
@@ -114,14 +134,10 @@ img {
       nav {
         padding-bottom: 0px;
       }
-
-
-
-
 }
 
 
-/*
+
 
 .g body { position: relative; }
 

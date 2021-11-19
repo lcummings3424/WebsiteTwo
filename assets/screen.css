@@ -22,7 +22,8 @@ p,
 article,
 section,
 figcaption,
-header
+header,
+#welcomer
  {
  padding-bottom: 24px;
 }
@@ -50,21 +51,19 @@ p,
   padding-top: 12px;
   padding-bottom: 12px;
 }
-.hiking-travel
+.hiking-travel,
+figure
  {
   padding-top: 12px;
 }
-#welcomer,
-p {
-  padding-bottom: 24px;
+#welcomer
+ {
   padding-top: 24px;
-
 }
 #ground-up {
   padding-bottom: 0px;
 }
 figure {
-  padding-top: 12px;
   display: flex;
   position: relative;
 }
@@ -103,6 +102,9 @@ nav {
   display: flex;
   justify-content: center;
 }
+#favorite-sites {
+  padding-bottom: 48px;
+}
 #nav-links a {
 font-weight: bold;
   color: black;
@@ -134,9 +136,7 @@ img {
       nav {
         padding-bottom: 0px;
       }
-}
-
-
+    }
 
 
 .g body { position: relative; }

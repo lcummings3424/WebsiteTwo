@@ -8,24 +8,25 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 /* Peru, */
+/* Base Styles */
 * {
   box-sizing: border-box;
 }
-
 html {
   font-size: 1.25em; /* 20/16 = 1.25em */
   line-height: 1.2em; /* 24/20 = 1.2em */
   background-color: #DCDCDC;
   font-family: Helvetica, Arial, serif;
 }
+/* General layout */
+
 p,
 article,
 section,
 figcaption,
 header,
-#welcomer
- {
- padding-bottom: 1.2em; /* 24/20 = 1.2em */
+#welcomer {
+  padding-bottom: 1.2em; /* 24/20 = 1.2em */
 }
 h1,
 .welcome,
@@ -39,36 +40,50 @@ p,
 #enjoy-games,
 #fav-games,
 #enjoy-sites,
-#favorite-sites
- {
-   text-align: center;
+#favorite-sites {
+  text-align: center;
+}
+header {
+  font-size: 1.2em; /* 24/20 = 1.2em */
+}
+h1 {
+  font-size: 1.5em; /* 30/20 = 1.5em */
+  line-height: 1.06666666667em; /* 48/45 = 1.06666666667 */
+}
+h2 {
+  font-weight: bold;
+}
+#copyright {
+  background-color: #A9A9A9;
+  border-top: 0.15em solid black; /* 3/20 = 0.15em */
 }
 
+/* Hobbies Page Styles */
 #enjoy-movies,
 #enjoy-games,
-#enjoy-sites
-{
+#enjoy-sites,
+#hiking-locations {
   padding-top: 0.6em; /* 12/20 = 0.6em */
   padding-bottom: 0.6em; /* 12/20 = 0.6em */
 }
 .hiking-travel,
-figure
- {
+figure {
   padding-top: 0.6em; /* 12/20 = 0.6em */
 }
-#welcomer
- {
-  padding-top: 1.2em; /* 24/20 = 1.2em */
-}
-#ground-up {
-  padding-bottom: 0;
-}
-figure {
-  display: flex;
-  position: relative;
+#welcomer {
+  padding-top: 1.2em;  /* 24/20 = 1.2em */
 }
 #hiking {
   padding-bottom: 0.6em; /* 12/20 = 0.6em */
+}
+#favorite-sites {
+  padding-bottom: 2.4em; /* 48/20 = 2.4em */
+}
+
+/* Responsive Images */
+figure {
+  display: flex;
+  position: relative;
 }
 figcaption {
   position: absolute;
@@ -77,65 +92,53 @@ figcaption {
   color: grey;
   background: rgba(20,20,20,0.6);
 }
-header {
-  font-size: 1.2em; /* 24/20 = 1.2em */
-}
-h1 {
-  font-size: 1.5em; /* 30/20 = 1.5em */
-  line-height: 1.2em; /* 48/45 = 1.2em */
-}
-h2 {
-  font-weight: bold;
-}
-nav {
-    background-color: #A9A9A9;
-    border-top: 0.15em solid black; /* 3/20 = 0.15em */
-    border-bottom: 0.15em solid black; /* 3/20 = 0.15em */
-    padding-top: 1.2em; /* 24/20 = 1.2em */
-}
-#content-resume {
-  margin-left: 1.2em; /* 24/20 = 1.2em */
+img {
+  display: block;
+  max-width: 100%;
 }
 
+/* Navigation Bar */
+nav {
+  background-color: #A9A9A9;
+  border-top: 0.15em solid black; /* 3/20 = 0.15em */
+  border-bottom: 0.15em solid black; /* 3/20 = 0.15em */
+  padding-top: 1.2em; /* 24/20 = 1.2em */
+}
 #nav-links li {
   display: flex;
   justify-content: center;
 }
-#favorite-sites {
-  padding-bottom: 2.4em; /* 48/20 = 2.4em */
-}
 #nav-links a {
-font-weight: bold;
+  font-weight: bold;
   color: black;
   display: block;
   text-decoration: none;
   margin-bottom: 1.2em; /* 24/20 = 1.2em */
 }
-img {
-  display: block;
-  max-width: 100%;
+
+/* Resume Page */
+#content-resume {
+  margin-left: 1.2em; /* 24/20 = 1.2em */
 }
-#liam-footer {
-  background-color: #A9A9A9;
-  border-top: 0.15em solid black; /* 3/20 = 0.15em */
-}
-@media screen and (min-width: 56.25em)/* 900/16 = 56.25em */ {
+
+/* Media Queries */
+@media screen and (min-width: 56.25em) /* 900/16 = 56.25em */ {
   figure {
     max-width: 50%;
     margin: 0 auto;
     max-height: 50%;
   }
-  }
+}
 @media screen and (min-width: 43.75em) /* 700/16 = 43.75em */ {
-   #nav-links  {
+  #nav-links {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-      }
-      nav {
-        padding-bottom: 0;
-      }
-    }
+  }
+  nav {
+    padding-bottom: 0;
+  }
+}
 /*
 .g body { position: relative; }
 

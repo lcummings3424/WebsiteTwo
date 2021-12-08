@@ -144,12 +144,12 @@ nav {
     padding-top: 12px;
   }
 }
-  @media screen and (min-width: 1500px) {
-    footer {
-      font-size: 16px;
-      justify-content: space-evenly;
-    }
+@media screen and (min-width: 1500px) {
+  footer {
+    font-size: 16px;
+    justify-content: space-evenly;
   }
+}
 
 @media screen and (min-width: 43.75em) /* 700/16 = 43.75em */ {
   #nav-links {

@@ -31,7 +31,6 @@ header,
 h1,
 .welcome,
 #ground-up,
-p,
 #hiking-locations,
 .hiking-travel,
 #enjoy-movies,
@@ -127,6 +126,11 @@ nav {
     max-width: 50%;
     margin: 0 auto;
     max-height: 50%;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 @media screen and (min-width: 43.75em) /* 700/16 = 43.75em */ {

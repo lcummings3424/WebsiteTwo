@@ -56,6 +56,9 @@ h2 {
   background-color: #A9A9A9;
   border-top: 0.15em solid black; /* 3/20 = 0.15em */
 }
+footer {
+  font-size: 16px;
+}
 
 /* Hobbies Page Styles */
 #enjoy-movies,

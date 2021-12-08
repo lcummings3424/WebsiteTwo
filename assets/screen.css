@@ -39,7 +39,8 @@ h1,
 #enjoy-games,
 #fav-games,
 #enjoy-sites,
-#favorite-sites {
+#favorite-sites,
+footer {
   text-align: center;
 }
 header {
@@ -58,6 +59,9 @@ h2 {
 }
 footer {
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 /* Hobbies Page Styles */
@@ -130,10 +134,13 @@ nav {
     margin: 0 auto;
     max-height: 50%;
   }
+}
+@media screen and (min-width: 1000px) {
   footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    text-align: left;
   }
 }
 @media screen and (min-width: 43.75em) /* 700/16 = 43.75em */ {
